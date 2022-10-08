@@ -1,0 +1,71 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+.backgr img {
+
+    width: 100%;
+    position: absolute;
+}
+.backgr h1 {
+    position: absolute;
+    z-index: 1;
+    color: rgb(147, 181, 225);
+    
+    text-align: center;
+    top:30%;
+    left:50%;
+    transform:translate(-50%,-50%);
+     
+}
+
+.loginpage {
+ position: relative;
+ width: 360px; 
+ padding: 10px 0;
+ margin: auto;
+ top: 350px;
+}
+.loginform {
+
+    background-color:#54545479;
+    border-radius: 20px;
+    border: 3px solid #5454540c;
+    width: 360px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.login input {
+
+    background: #f2f2f2;
+    border: 0;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.login button {
+
+    text-transform: uppercase;
+    background: black;
+    width: 60%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.notregister {
+    margin: 15px ;
+    color: black;
+    font-size: 12px;
+}
+.notregister a {
+
+    text-decoration: none;
+    color: rgb(220, 224, 187);
+}
+
+
+
